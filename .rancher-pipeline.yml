@@ -1,5 +1,5 @@
 stages:
-  - name: Publish spring image
+  - name: Publish server image
     steps:
     - publishImageConfig:
         dockerfilePath: ./Dockerfile
